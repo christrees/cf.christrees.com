@@ -14,7 +14,10 @@ ns - Netstack
 | [https://192.168.2.2](https://192.168.2.2) | [https://sg.cf.lan](https://sg.cf.lan) | sg - storage gateway | [ sg ops ]() | [sg setup](https://netstack.org/docs/lan/storage/freenas/setup) |
 | [https://192.168.2.3](https://192.168.2.3) | [https://cg.cf.lan](https://cg.cf.lan) | cg - compute gateway | [ cg ops ]() | [cg setup](https://netstack.org/docs/lan/compute/proxmox/) |
 
+
 Future HA nodes
+
+
 | IP | lan | purpose |
 |----|-----|---------|
 | [https://192.168.2.4](https://192.168.2.4) | [https://bg2.cf.lan](https://bg2.cf.lan) | bg - backups gateway secondary|
