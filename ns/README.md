@@ -11,8 +11,8 @@ ns - Netstack
 | IP | lan | purpose | ops | setup |
 |----|-----|---------|-----|-------|
 | [https://192.168.2.1](https://192.168.2.1) | [https://ng.cf.lan](https://ng.cf.lan) | ng - network gateway | [ ng ops ]() | [ng setup](https://netstack.org/docs/lan/network/pfsense/setup) |
-| [https://192.168.2.2](https://192.168.2.2) | [https://sg.cf.lan](https://sg.cf.lan) | sg - storage gateway | [ sg ops ]() | [sg setup](https://netstack.org/docs/lan/storage/freenas/setup) |
-| [https://192.168.2.3](https://192.168.2.3) | [https://cg.cf.lan](https://cg.cf.lan) | cg - compute gateway | [ cg ops ]() | [cg setup](https://netstack.org/docs/lan/compute/proxmox/) |
+| [https://192.168.2.2](https://192.168.2.2) | [https://sg.cf.lan](https://sg.cf.lan) | sg - storage gateway | [ sg ops https://192.168.2.2/ui/dashboard](https://192.168.2.2/ui/dashboard) | [sg setup](https://netstack.org/docs/lan/storage/freenas/setup) |
+| [https://192.168.2.3](https://192.168.2.3) | [https://cg.cf.lan](https://cg.cf.lan) | cg - compute gateway | [ cg ops https://192.168.2.3:8006/ ](https://192.168.2.3:8006/) | [cg setup](https://netstack.org/docs/lan/compute/proxmox/) |
 
 
 Future HA nodes
