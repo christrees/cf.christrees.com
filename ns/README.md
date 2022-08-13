@@ -2,9 +2,9 @@
 
 - Public [http://24.149.23.184/](http://24.149.23.184/)
   - DMZ Lan [ng.cfu.net - 854G-1 - http://192.168.6.1/](http://192.168.6.1/)
-    - [ng.cf.lan -  http://192.168.2.1/](http://192.168.2.1/) ng network gateway (device ASUS RT-AC87U sb pfSense)
-    - [sg.cf.lan -  http://192.168.2.2/](http://192.168.2.2/) sg storage gateway (device TrueNAS core)
-    - [cg.cf.lan -  http://192.168.2.3/](http://192.168.2.3/) cg compute gateway (device Proxmox)
+    - [~~ng.cf.lan -  http://192.168.2.1/~~](http://192.168.2.1/) ~~ng network gateway (device ASUS RT-AC87U sb pfSense)~~ removed in May
+    - [~~sg.cf.lan -  http://192.168.2.2/~~](http://192.168.2.2/) ~~sg storage gateway (device TrueNAS core)~~ removed in May
+    - [~~cg.cf.lan -  http://192.168.2.3/~~](http://192.168.2.3/) ~~cg compute gateway (device Proxmox)~~ removed in May
 
   - HDHomeRun Connect [4K Dev - Tuner - http://192.168.6.46/](http://192.168.6.46/)
     - [http://192.168.2.31/discover.json](http://192.168..6.46/discover.json)
