@@ -2,6 +2,10 @@
 
 - Public [http://24.149.23.184/](http://24.149.23.184/)
   - DMZ Lan [ng.cfu.net - 854G-1 - http://192.168.6.1/](http://192.168.6.1/)
+    - [current devices](http://192.168.6.1/#/html/status/status_devicetable.html)
+    - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html)
+    - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
+    - [Firewall Rules](
     - [~~ng.cf.lan -  http://192.168.2.1/~~](http://192.168.2.1/) ~~ng network gateway (device ASUS RT-AC87U sb pfSense)~~ removed in May
     - [~~sg.cf.lan -  http://192.168.2.2/~~](http://192.168.2.2/) ~~sg storage gateway (device TrueNAS core)~~ removed in May
     - [~~cg.cf.lan -  http://192.168.2.3/~~](http://192.168.2.3/) ~~cg compute gateway (device Proxmox)~~ removed in May
@@ -12,9 +16,17 @@
     - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
 
   - Plex Server [macci - http://192.168.6.45:32400/](http://192.168.6.45:32400/)
+    - macci	c8:2a:14:36:3d:9d	192.168.6.45 10.147.19.27 [macci - i3](what#time) [ghadmin](What#Time)
     - [http://192.168.6.45/discover.json](http://192.168.6.45/discover.json)
     - [http://192.168.6.45/lineup.json](http://192.168.6.45/lineup.json)
     - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
+
+
+- [Plex downloads](https://www.plex.tv/media-server-downloads/)
+    - Plex 1.28.2 for OSX 10.9
+- [ZeroTier downloads](https://www.zerotier.com/download/)
+    - [cattv - network - 52b337794f721ef7](https://my.zerotier.com/network/52b337794f721ef7) ghadmin
+
 
 ---
 
