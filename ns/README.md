@@ -1,63 +1,67 @@
 
 
 - Public [http://24.149.22.11/](http://24.149.22.11/) - as of 20230117
-  - DMZ Lan [ng.cfu.net - 854G-1 - http://192.168.6.1/](http://192.168.6.1/)
-    - [current devices](http://192.168.6.1/#/html/status/status_devicetable.html)
-    - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html)
-    - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
-      - 32400 to 32400	192.168.6.180 (cattvWin10 plex)	TCP	32600 to 32600	All IP Addresses	
-      - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
-      - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
-    - [Firewall Rules](http://192.168.6.1/#/html/advanced/security/advanced_security_firewallsettings.html)
-    - [~~ng.cf.lan -  http://192.168.2.1/~~](http://192.168.2.1/) ~~ng network gateway (device ASUS RT-AC87U sb pfSense)~~ removed in May
-    - [~~sg.cf.lan -  http://192.168.2.2/~~](http://192.168.2.2/) ~~sg storage gateway (device TrueNAS core)~~ removed in May
-    - [~~cg.cf.lan -  http://192.168.2.3/~~](http://192.168.2.3/) ~~cg compute gateway (device Proxmox)~~ removed in May
-  - HDHomeRun Connect [HDHR-10802956 4K Dev - Tuner - http://192.168.6.160/](http://192.168.6.160/) DNS MAC Res
-    - [http://192.168.6.160/discover.json](http://192.168.6.160/discover.json)
-    - [http://192.168.6.160/lineup.json](http://192.168.6.160/lineup.json)
-    - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
-  - Plex Server [cattvWin10 - http://192.168.6.180:32400/](http://192.168.6.180:32400/) DNS MAC Res
-  - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html) DHCP Range 192.168.6.150-250
-    - 192.168.6.159 - macci - i3 - [ghadmin](What#Time) 
-    - 192.168.6.160 - HDHR-10802956 4K Dev see above
-    - 192.168.6.161 - zmodo camera
-    - 192.168.6.162 - zmodo camera
-    - 192.168.6.163 - zmodo camera
-    - 192.168.6.164 - zmodo camera
-    - 192.168.6.165 - zmodo hub
-    - 192.168.6.180 - cattvWin10 - ISP2150 4core - [tvadmin](What#Time)
-  - Static IP used in 192.168.6.0/24 subnet
-    - 192.168.6.101 - network gport .2 subnet
-    - 192.168.6.102 - storage gport .2 subnet
-    - 192.168.6.103 - compute gport .2 subnet
-      - nginx proxy default page [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
-      - dockerplex subnet .6 [http://192.168.6.103:32400 dockerplex web](http://192.168.6.103:32400/web/index.html#!/)
-      - Proposed mappings
-      - nginx proxy manager admin http://192.168.6.103:81 nginx proxy admin[tbd]()
-      - portainer management portal http://192.168.6.103:9000 portainer admin[tbd]()
-      - proxmos management portal http://192.168.6.103:8006 proxmox admin[tbd]()
 
+---
+## DMZ LAN local
+- cfu pop router [ng.cfu.net - 854G-1 - http://192.168.6.1/](http://192.168.6.1/)
+  - [current devices](http://192.168.6.1/#/html/status/status_devicetable.html)
+  - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html)
+  - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
+    - 32400 to 32400	192.168.6.180 (cattvWin10 plex)	TCP	32600 to 32600	All IP Addresses	
+    - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
+    - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
+  - [Firewall Rules](http://192.168.6.1/#/html/advanced/security/advanced_security_firewallsettings.html)
+- HDHomeRun Connect [HDHR-10802956 4K Dev - Tuner - http://192.168.6.160/](http://192.168.6.160/) DNS MAC Res
+  - [http://192.168.6.160/discover.json](http://192.168.6.160/discover.json)
+  - [http://192.168.6.160/lineup.json](http://192.168.6.160/lineup.json)
+  - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
+- Plex Server [cattvWin10 - http://192.168.6.180:32400/](http://192.168.6.180:32400/) DNS MAC Res
+- [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html) DHCP Range 192.168.6.150-250
+  - 192.168.6.159 - macci - i3 - [ghadmin](What#Time) 
+  - 192.168.6.160 - HDHR-10802956 4K Dev see above
+  - 192.168.6.161 - zmodo camera
+  - 192.168.6.162 - zmodo camera
+  - 192.168.6.163 - zmodo camera
+  - 192.168.6.164 - zmodo camera
+  - 192.168.6.165 - zmodo hub
+  - 192.168.6.180 - cattvWin10 - ISP2150 4core - [tvadmin](What#Time)
+- Static IP used in 192.168.6.0/24 subnet
+  - 192.168.6.101 - network gport .2 subnet
+  - 192.168.6.102 - storage gport .2 subnet
+  - 192.168.6.103 - compute gport .2 subnet
+    - nginx proxy default page [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
+    - dockerplex subnet .6 [http://192.168.6.103:32400 dockerplex web](http://192.168.6.103:32400/web/index.html#!/)
+    - Proposed mappings
+    - nginx proxy manager admin http://192.168.6.103:81 nginx proxy admin[tbd]()
+    - portainer management portal http://192.168.6.103:9000 portainer admin[tbd]()
+    - proxmos management portal http://192.168.6.103:8006 proxmox admin[tbd]()
+  
+---
+## ns lan
 - ns.cf.lan 192.168.2.0/24 subnet for netstack Static IP used in 192.168.6.0/24 subnet
-    - 192.168.2.1 - network gport .2 gw pfsense [http://192.168.2.1](http://192.168.2.1) [admin](What#Time)
-      - [current arp table http://192.168.2.1/diag_arp.php](http://192.168.2.1/diag_arp.php)
-      - [DHCP Leases - http://192.168.2.1/status_dhcp_leases.php](http://192.168.2.1/status_dhcp_leases.php)
-      - [Firewall Rules - http://192.168.2.1/firewall_rules.php](http://192.168.2.1/firewall_rules.php)
-        - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
-        - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
-    - 192.168.2.2 - storage gport .2 subnet
-    - 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
-      - [http://192.168.2.103/       nginx proxy default page](http://192.168.2.103/) 
-      - [http://192.168.2.103:81     nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
-      - [http://192.168.2.103:9000   portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
-      - [http://192.168.2.103:32400  dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
+- 192.168.2.1 - network gport .2 gw pfsense [http://192.168.2.1](http://192.168.2.1) [admin](What#Time)
+  - [current arp table http://192.168.2.1/diag_arp.php](http://192.168.2.1/diag_arp.php)
+  - [DHCP Leases - http://192.168.2.1/status_dhcp_leases.php](http://192.168.2.1/status_dhcp_leases.php)
+  - [Firewall Rules - http://192.168.2.1/firewall_rules.php](http://192.168.2.1/firewall_rules.php)
+    - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
+    - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
+- 192.168.2.2 - storage gport .2 subnet
+- 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
+  - [http://192.168.2.103/       nginx proxy default page](http://192.168.2.103/) 
+  - [http://192.168.2.103:81     nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
+  - [http://192.168.2.103:9000   portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
+  - [http://192.168.2.103:32400  dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
 
+---
+### Reference
 - [Plex downloads](https://www.plex.tv/media-server-downloads/)
-    - Plex 1.28.2 for OSX 10.9
-    - [Plex remote client network issue](https://www.devwithimagination.com/2019/08/21/plex-docker-and-the-problem-of-always-appearing-as-remote/)
-    - 
+  - Plex 1.28.2 for OSX 10.9
+  - [Plex remote client network issue](https://www.devwithimagination.com/2019/08/21/plex-docker-and-the-problem-of-always-appearing-as-remote/)
+  - [tbd]()
 - [ZeroTier downloads](https://www.zerotier.com/download/)
-    - [cattv - network - 52b337794f721ef7](https://my.zerotier.com/network/52b337794f721ef7) ghadmin
-
+  - [cattv - network - 52b337794f721ef7](https://my.zerotier.com/network/52b337794f721ef7) ghadmin
+  - [tbd]()
 - [pfsense monitor bandwidth useage](https://docs.netgate.com/pfsense/en/latest/monitoring/graphs/bandwidth-usage.html)
 - [https://adamtheautomator.com/nginx-proxy-manager/](https://adamtheautomator.com/nginx-proxy-manager/)
 - [portainer with nginx proxy manager - install](https://www.howtoforge.com/how-to-install-and-use-portainer-for-docker-management-with-nginx-proxy-manager/)
@@ -66,15 +70,9 @@
 - [https://github.com/2cld/netstack/tree/master/docs/lan](https://github.com/2cld/netstack/tree/master/docs/lan)
 - [https://app.diagrams.net/#Hpitimon%2FspComNet%2Fmain%2Fproxmox22](https://app.diagrams.net/#Hpitimon%2FspComNet%2Fmain%2Fproxmox22)
 - [https://www.virtualizationhowto.com/2022/08/pfsense-proxmox-install-process-and-configuration/](https://www.virtualizationhowto.com/2022/08/pfsense-proxmox-install-process-and-configuration/)
-
 - [https://tailscale.com/compare/zerotier/](https://tailscale.com/compare/zerotier/)
 - [https://login.tailscale.com/admin/welcome](https://login.tailscale.com/admin/welcome) - ghadmin@horseoff.com login-with-google
 - [tbd]()
-
-
----
-
-Future video services should be in it's on ns managed subnet
 
 ---
 
