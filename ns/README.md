@@ -42,21 +42,27 @@
       - [current arp table http://192.168.2.1/diag_arp.php](http://192.168.2.1/diag_arp.php)
       - [DHCP Leases - http://192.168.2.1/status_dhcp_leases.php](http://192.168.2.1/status_dhcp_leases.php)
       - [Firewall Rules - http://192.168.2.1/firewall_rules.php](http://192.168.2.1/firewall_rules.php)
-      - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
-        - 32400 to 32400	192.168.6.180 (cattvWin10 plex)	TCP	32600 to 32600	All IP Addresses	
         - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
         - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
     - 192.168.2.2 - storage gport .2 subnet
     - 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
-      - [http://192.168.2.103/ - nginx proxy default page](http://192.168.2.103/)
-      - [http://192.168.2.103:81 nginx proxy admin](http://192.168.2.103:81)
-      - [http://192.168.2.103:32400 dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
+      - [http://192.168.2.103/ - nginx proxy default page](http://192.168.2.103/) 
+      - [http://192.168.2.103:81 nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
       - [http://192.168.2.103:9000 portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
+      - [http://192.168.2.103:32400 dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
 
 - [Plex downloads](https://www.plex.tv/media-server-downloads/)
     - Plex 1.28.2 for OSX 10.9
+    - [Plex remote client network issue](https://www.devwithimagination.com/2019/08/21/plex-docker-and-the-problem-of-always-appearing-as-remote/)
+    - 
 - [ZeroTier downloads](https://www.zerotier.com/download/)
     - [cattv - network - 52b337794f721ef7](https://my.zerotier.com/network/52b337794f721ef7) ghadmin
+
+- [pfsense monitor bandwidth useage](https://docs.netgate.com/pfsense/en/latest/monitoring/graphs/bandwidth-usage.html)
+= [portainer with nginx proxy manager - install](https://www.howtoforge.com/how-to-install-and-use-portainer-for-docker-management-with-nginx-proxy-manager/)
+- [https://nginxproxymanager.com/guide/#quick-setup](https://nginxproxymanager.com/guide/#quick-setup)
+- [https://github.com/2cld/netstack/tree/master/docs/lan](https://github.com/2cld/netstack/tree/master/docs/lan)
+- [https://app.diagrams.net/#Hpitimon%2FspComNet%2Fmain%2Fproxmox22](https://app.diagrams.net/#Hpitimon%2FspComNet%2Fmain%2Fproxmox22)
 
 
 ---
