@@ -5,6 +5,9 @@
     - [current devices](http://192.168.6.1/#/html/status/status_devicetable.html)
     - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html)
     - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
+      - 32400 to 32400	192.168.6.180 (cattvWin10 plex)	TCP	32600 to 32600	All IP Addresses	
+      - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
+      - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
     - [Firewall Rules](http://192.168.6.1/#/html/advanced/security/advanced_security_firewallsettings.html)
     - [~~ng.cf.lan -  http://192.168.2.1/~~](http://192.168.2.1/) ~~ng network gateway (device ASUS RT-AC87U sb pfSense)~~ removed in May
     - [~~sg.cf.lan -  http://192.168.2.2/~~](http://192.168.2.2/) ~~sg storage gateway (device TrueNAS core)~~ removed in May
@@ -30,10 +33,25 @@
       - [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
       - Proposed mappings
       - [http://192.168.6.103:81 nginx proxy admin]()
-      - [http://192.168.6.103:8006 proxmox admin]()
+      - [http://192.168.6.103:32400 dockerplex web](http://192.168.6.103:32400/web/index.html#!/)
       - [http://192.168.6.103:9000 portainer admin]()
       - [http://192.168.6.103:8006 proxmox admin]()
 
+- ns.cf.lan 192.168.2.0/24 subnet for netstack Static IP used in 192.168.6.0/24 subnet
+    - 192.168.2.1 - network gport .2 gw pfsense [http://192.168.2.1](http://192.168.2.1) [admin](What#Time)
+      - [current arp table http://192.168.2.1/diag_arp.php](http://192.168.2.1/diag_arp.php)
+      - [DHCP Leases - http://192.168.2.1/status_dhcp_leases.php](http://192.168.2.1/status_dhcp_leases.php)
+      - [Firewall Rules - http://192.168.2.1/firewall_rules.php](http://192.168.2.1/firewall_rules.php)
+      - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
+        - 32400 to 32400	192.168.6.180 (cattvWin10 plex)	TCP	32600 to 32600	All IP Addresses	
+        - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
+        - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
+    - 192.168.2.2 - storage gport .2 subnet
+    - 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
+      - [http://192.168.2.103/ - nginx proxy default page](http://192.168.2.103/)
+      - [http://192.168.2.103:81 nginx proxy admin](http://192.168.2.103:81)
+      - [http://192.168.2.103:32400 dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
+      - [http://192.168.2.103:9000 portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
 
 - [Plex downloads](https://www.plex.tv/media-server-downloads/)
     - Plex 1.28.2 for OSX 10.9
