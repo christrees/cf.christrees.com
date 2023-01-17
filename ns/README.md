@@ -30,12 +30,12 @@
     - 192.168.6.101 - network gport .2 subnet
     - 192.168.6.102 - storage gport .2 subnet
     - 192.168.6.103 - compute gport .2 subnet
-      - [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
+      - nginx proxy default page [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
+      - dockerplex subnet .6 [http://192.168.6.103:32400 dockerplex web](http://192.168.6.103:32400/web/index.html#!/)
       - Proposed mappings
-      - [http://192.168.6.103:81 nginx proxy admin]()
-      - [http://192.168.6.103:32400 dockerplex web](http://192.168.6.103:32400/web/index.html#!/)
-      - [http://192.168.6.103:9000 portainer admin]()
-      - [http://192.168.6.103:8006 proxmox admin]()
+      - nginx proxy manager admin http://192.168.6.103:81 nginx proxy admin[tbd]()
+      - portainer management portal http://192.168.6.103:9000 portainer admin[tbd]()
+      - proxmos management portal http://192.168.6.103:8006 proxmox admin[tbd]()
 
 - ns.cf.lan 192.168.2.0/24 subnet for netstack Static IP used in 192.168.6.0/24 subnet
     - 192.168.2.1 - network gport .2 gw pfsense [http://192.168.2.1](http://192.168.2.1) [admin](What#Time)
@@ -46,10 +46,10 @@
         - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
     - 192.168.2.2 - storage gport .2 subnet
     - 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
-      - [http://192.168.2.103/ - nginx proxy default page](http://192.168.2.103/) 
-      - [http://192.168.2.103:81 nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
-      - [http://192.168.2.103:9000 portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
-      - [http://192.168.2.103:32400 dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
+      - [http://192.168.2.103/       nginx proxy default page](http://192.168.2.103/) 
+      - [http://192.168.2.103:81     nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
+      - [http://192.168.2.103:9000   portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
+      - [http://192.168.2.103:32400  dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
 
 - [Plex downloads](https://www.plex.tv/media-server-downloads/)
     - Plex 1.28.2 for OSX 10.9
