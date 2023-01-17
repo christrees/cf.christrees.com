@@ -1,5 +1,6 @@
 
-
+- Domain [https://domains.google.com/registrar/](https://domains.google.com/registrar/)
+  - DNS [https://domains.google.com/registrar/christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
 - Public [http://24.149.22.11/](http://24.149.22.11/) - as of 20230117
 
 ---
@@ -50,6 +51,8 @@
 - 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
   - [http://192.168.2.103/       nginx proxy default page](http://192.168.2.103/) 
   - [http://192.168.2.103:81     nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
+    - http://testapp.com -> app2:80 [http://testapp.com](http://testapp.com) only c:/Windows/System32/drivers/etc/hosts file on cattvWin10 
+    - http://test.christrees.com -> app2:80 [http://test.christrees.com](http://test.christrees.com)
   - [http://192.168.2.103:9000   portainer admin](http://192.168.2.103:9000) [admin](What#Time?)
   - [http://192.168.2.103:32400  dockerplex web](http://192.168.2.103:32400/web/index.html#!/) [christrees https://plex.tv](https://plex.tv)
 
