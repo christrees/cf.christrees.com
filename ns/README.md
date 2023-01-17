@@ -1,25 +1,38 @@
 
 
-- Public [http://24.149.23.184/](http://24.149.23.184/)
+- Public [http://24.149.22.11/](http://24.149.22.11/) - as of 20230117
   - DMZ Lan [ng.cfu.net - 854G-1 - http://192.168.6.1/](http://192.168.6.1/)
     - [current devices](http://192.168.6.1/#/html/status/status_devicetable.html)
     - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html)
     - [Port Forwarding](http://192.168.6.1/#/html/advanced/security/advanced_security_advancedportforwarding.html)
-    - [Firewall Rules](
+    - [Firewall Rules](http://192.168.6.1/#/html/advanced/security/advanced_security_firewallsettings.html)
     - [~~ng.cf.lan -  http://192.168.2.1/~~](http://192.168.2.1/) ~~ng network gateway (device ASUS RT-AC87U sb pfSense)~~ removed in May
     - [~~sg.cf.lan -  http://192.168.2.2/~~](http://192.168.2.2/) ~~sg storage gateway (device TrueNAS core)~~ removed in May
     - [~~cg.cf.lan -  http://192.168.2.3/~~](http://192.168.2.3/) ~~cg compute gateway (device Proxmox)~~ removed in May
-
-  - HDHomeRun Connect [4K Dev - Tuner - http://192.168.6.46/](http://192.168.6.46/)
-    - [http://192.168.2.31/discover.json](http://192.168..6.46/discover.json)
-    - [http://192.168.2.31/lineup.json](http://192.168..6.46/lineup.json)
+  - HDHomeRun Connect [HDHR-10802956 4K Dev - Tuner - http://192.168.6.160/](http://192.168.6.160/) DNS MAC Res
+    - [http://192.168.6.160/discover.json](http://192.168.6.160/discover.json)
+    - [http://192.168.6.160/lineup.json](http://192.168.6.160/lineup.json)
     - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
-
-  - Plex Server [macci - http://192.168.6.45:32400/](http://192.168.6.45:32400/)
-    - macci	c8:2a:14:36:3d:9d	192.168.6.45 10.147.19.27 [macci - i3](what#time) [ghadmin](What#Time)
-    - [http://192.168.6.45/discover.json](http://192.168.6.45/discover.json)
-    - [http://192.168.6.45/lineup.json](http://192.168.6.45/lineup.json)
-    - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
+  - Plex Server [cattvWin10 - http://192.168.6.180:32400/](http://192.168.6.180:32400/) DNS MAC Res
+  - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html) DHCP Range 192.168.6.150-250
+    - 192.168.6.159 - macci - i3 - [ghadmin](What#Time) 
+    - 192.168.6.160 - HDHR-10802956 4K Dev see above
+    - 192.168.6.161 - zmodo camera
+    - 192.168.6.162 - zmodo camera
+    - 192.168.6.163 - zmodo camera
+    - 192.168.6.164 - zmodo camera
+    - 192.168.6.165 - zmodo hub
+    - 192.168.6.180 - cattvWin10 - ISP2150 4core - [tvadmin](What#Time)
+  - Static IP used in 192.168.6.0/24 subnet
+    - 192.168.6.101 - network gport .2 subnet
+    - 192.168.6.102 - storage gport .2 subnet
+    - 192.168.6.103 - compute gport .2 subnet
+      - [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
+      - Proposed mappings
+      - [http://192.168.6.103:81 nginx proxy admin]()
+      - [http://192.168.6.103:8006 proxmox admin]()
+      - [http://192.168.6.103:9000 portainer admin]()
+      - [http://192.168.6.103:8006 proxmox admin]()
 
 
 - [Plex downloads](https://www.plex.tv/media-server-downloads/)
