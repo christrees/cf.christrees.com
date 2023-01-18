@@ -1,3 +1,4 @@
+[edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
 - Domain [https://domains.google.com/registrar/](https://domains.google.com/registrar/)
   - DNS [https://domains.google.com/registrar/christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
@@ -62,6 +63,7 @@
   - Plex 1.28.2 for OSX 10.9
   - [Plex remote client network issue](https://www.devwithimagination.com/2019/08/21/plex-docker-and-the-problem-of-always-appearing-as-remote/)
   - [Plex remote access pfsense configs](https://www.thesmarthomebook.com/2020/04/16/fixing-remote-access-for-plex-in-pfsense/)
+  - [Plex-Reverse-Proxy-for-Docker](https://github.com/fmillion/docs/blob/master/Plex-Reverse-Proxy-for-Docker.md)
 - [ZeroTier downloads](https://www.zerotier.com/download/)
   - [cattv - network - 52b337794f721ef7](https://my.zerotier.com/network/52b337794f721ef7) ghadmin
   - [tbd]()
