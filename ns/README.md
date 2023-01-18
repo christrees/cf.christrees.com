@@ -22,10 +22,7 @@
 - [DHCP Reservations](http://192.168.6.1/#/html/advanced/ip/advanced_ip_dhcpreservation.html) DHCP Range 192.168.6.150-250
   - 192.168.6.159 - macci - i3 - [ghadmin](What#Time) 
   - 192.168.6.160 - HDHR-10802956 4K Dev see above
-  - 192.168.6.161 - zmodo camera
-  - 192.168.6.162 - zmodo camera
-  - 192.168.6.163 - zmodo camera
-  - 192.168.6.164 - zmodo camera
+  - 192.168.6.161-164 - zmodo camera
   - 192.168.6.165 - zmodo hub
   - 192.168.6.180 - cattvWin10 - ISP2150 4core - [tvadmin](What#Time)
 - Static IP used in 192.168.6.0/24 subnet
@@ -48,7 +45,7 @@
   - [Firewall Rules - http://192.168.2.1/firewall_rules.php](http://192.168.2.1/firewall_rules.php)
     - 80    to 80	    192.168.6.103 (nginx proxy man) TCP	80    to 80   	All IP Addresses
     - 32400 to 32400	192.168.6.103 (dockerplex plex)	TCP	32400 to 32400	All IP Addresses	
-- 192.168.2.2 - storage gport .2 subnet
+- 192.168.2.2 - storage gport .2 subnet tbd truenas
 - 192.168.2.3 - compute gport [http://192.168.2.3:8006 proxmox admin](http://192.168.2.3:8006) [root](What#Time)
   - [http://192.168.2.103/       nginx proxy default page](http://192.168.2.103/) 
   - [http://192.168.2.103:81     nginx proxy admin](http://192.168.2.103:81) [ghadmin](What#Time)
