@@ -29,12 +29,14 @@
   - 192.168.6.101 - network gport .2 subnet
   - 192.168.6.102 - storage gport .2 subnet
   - 192.168.6.103 - compute gport .2 subnet
-    - nginx proxy default page [http://192.168.6.103/ - nginx proxy default page](http://192.168.6.103/)
-    - dockerplex subnet .6 [http://192.168.6.103:32400 dockerplex web](http://192.168.6.103:32400/web/index.html#!/)
-    - Proposed mappings
-    - nginx proxy manager admin http://192.168.6.103:81 nginx proxy admin[tbd]()
-    - portainer management portal http://192.168.6.103:9000 portainer admin[tbd]()
-    - proxmos management portal http://192.168.6.103:8006 proxmox admin[tbd]()
+
+    | web proxy    |   Link  |
+    |==============|=========|
+    | nginx default | [http://192.168.6.103/](http://192.168.6.103/) |
+    | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) |
+    | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) |
+    | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) |
+    | proxmox admin | [http://192.168.6.103:8006](http://192.168.6.103:8006) |
   
 ---
 ## ns lan
