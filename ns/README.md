@@ -30,13 +30,14 @@
   - 192.168.6.102 - storage gport .2 subnet
   - 192.168.6.103 - compute gport .2 subnet
 
-    | web proxy    |   Link  |
-    |==============|=========|
-    | nginx default | [http://192.168.6.103/](http://192.168.6.103/) |
-    | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) |
-    | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) |
-    | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) |
-    | proxmox admin | [http://192.168.6.103:8006](http://192.168.6.103:8006) |
+    | web proxy    |   Link  | description |
+    |--------------|---------|-------------|
+    | nginx default | [http://192.168.6.103/](http://192.168.6.103/) | default nginx proxy page running in portainer |
+    | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | admin for nginx running in portainer |
+    | proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | proxmox running on metal 192.168.2.3 IP |
+    | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | portainer admin on proxmox docker 103 |
+    | catnas admin | [http://192.168.6.103:9090](http://192.168.6.103:9090) | 45Drive docker NAS proxmox catnas 102 |
+    | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | plex on portainer |
   
 ---
 ## ns lan
