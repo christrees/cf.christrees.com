@@ -5,6 +5,7 @@
 | web proxy    |   Link  | description |
 |--------------|---------|-------------|
 | cfu | [http://192.168.6.1/](http://192.168.6.1/) | cfu fw19 |
+| ssh to truenas | ssh 192.168.6.103:2020 | ssh to truenas |
 | nginx default | [http://192.168.6.103/](http://192.168.6.103/) | default nginx proxy page running in portainer |
 | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | admin for nginx running in portainer |
 | proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | proxmox running on metal 192.168.2.3 IP |
