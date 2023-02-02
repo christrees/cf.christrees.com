@@ -1,5 +1,37 @@
 [edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
+## 192.168.6.0/24 gw [http://192.168.6.1/](http://192.168.6.1/)
+
+| web proxy    |   Link  | description |
+|--------------|---------|-------------|
+| cfu | [http://192.168.6.1/](http://192.168.6.1/) | cfu fw19 |
+| nginx default | [http://192.168.6.103/](http://192.168.6.103/) | default nginx proxy page running in portainer |
+| nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | admin for nginx running in portainer |
+| proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | proxmox running on metal 192.168.2.3 IP |
+| portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | portainer admin on proxmox docker 103 |
+| catnas admin | [http://192.168.6.103:9090](http://192.168.6.103:9090) | tnas docker NAS proxmox catnas 102 |
+| dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | 32400 on IP plex on portainer |
+| tnasplex web | [http://192.168.6.103:32500](http://192.168.6.103:32500) | 32500 on IP plex on portainer |
+| cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | 32600 on IP plex on cattvwin10 |
+| HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | tuner |
+
+
+## 192.168.2.0/24 gw [http://192.168.2.1/](http://192.168.2.1/)
+  
+| web proxy    |   Link  | description |
+|--------------|---------|-------------|
+| pfsense | [http://192.168.2.1/](http://192.168.2.1/) | pfsense ng on subnet |
+| truenas | [http://192.168.2.2/](http://192.168.2.2/) | truenas sg on subnet |
+| proxmox | [http://192.168.2.3:8006/](http://192.168.2.3:8006/) | proxmox cg subnet |
+| nginx default | [http://192.168.2.103/](http://192.168.2.103/) | default nginx proxy page running in portainer |
+| nginx proxy admin | fix [http://192.168.2.103:81](http://192.168.2.103:81) | admin for nginx running in portainer |
+| portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | portainer admin on proxmox docker 103 |
+| dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | 32400 on IP plex on portainer |
+| tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | 32500 on IP plex on portainer |
+| HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | tuner |
+
+---
+
 - Domain [https://domains.google.com/registrar/](https://domains.google.com/registrar/)
   - DNS [https://domains.google.com/registrar/christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
 - Public [http://24.149.22.11/](http://24.149.22.11/) - as of 20230117
@@ -30,15 +62,6 @@
   - 192.168.6.102 - storage gport .2 subnet
   - 192.168.6.103 - compute gport .2 subnet
 
-    | web proxy    |   Link  | description |
-    |--------------|---------|-------------|
-    | nginx default | [http://192.168.6.103/](http://192.168.6.103/) | default nginx proxy page running in portainer |
-    | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | admin for nginx running in portainer |
-    | proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | proxmox running on metal 192.168.2.3 IP |
-    | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | portainer admin on proxmox docker 103 |
-    | catnas admin | [http://192.168.6.103:9090](http://192.168.6.103:9090) | 45Drive docker NAS proxmox catnas 102 |
-    | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | plex on portainer |
-  
 ---
 ## ns lan
 - ns.cf.lan 192.168.2.0/24 subnet for netstack Static IP used in 192.168.6.0/24 subnet
