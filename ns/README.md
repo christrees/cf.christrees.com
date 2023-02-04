@@ -19,9 +19,9 @@
 | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | admin for nginx running in portainer |
 | proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | proxmox running on metal 192.168.2.3 IP |
 | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | portainer admin on proxmox docker 103 |
-| catnas admin | [http://192.168.6.103:9090](http://192.168.6.103:9090) | tnas docker NAS proxmox catnas 102 |
-| dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | 32400 on IP plex on portainer |
-| tnasplex web | [http://192.168.6.103:32500](http://192.168.6.103:32500) | 32500 on IP plex on portainer |
+| truenas admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | TrueNAS on proxmox truenas 102 |
+| dockerplex web | NOT WORKING [http://192.168.6.103:32400](http://192.168.6.103:32400) | 32400 on IP plex on portainer |
+| tnasplex web | NOT WORKING [http://192.168.6.103:32500](http://192.168.6.103:32500) | 32500 on IP plex on portainer |
 | cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | 32600 on IP plex on cattvwin10 |
 | HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | tuner |
 
