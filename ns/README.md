@@ -32,9 +32,9 @@
 |--------------|---------|-------------|
 | pfsense | [http://192.168.2.1/](http://192.168.2.1/) | pfsense ng on subnet |
 | truenas | [http://192.168.2.2/](http://192.168.2.2/) | truenas sg on subnet |
-| proxmox | [http://192.168.2.3:8006/](http://192.168.2.3:8006/) | proxmox cg subnet |
+| proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | proxmox cg subnet |
 | nginx default | [http://192.168.2.103/](http://192.168.2.103/) | default nginx proxy page running in portainer |
-| nginx proxy admin | fix [http://192.168.2.103:81](http://192.168.2.103:81) | admin for nginx running in portainer |
+| nginx proxy admin | [http://192.168.2.103:81](http://192.168.2.103:81) | admin for nginx running in portainer |
 | portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | portainer admin on proxmox docker 103 |
 | dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | 32500 on IP plex on portainer |
