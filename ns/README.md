@@ -7,6 +7,7 @@
 - [https://whatismyipaddress.com/ip/24.149.22.11](https://whatismyipaddress.com/ip/24.149.22.11) - 24.149.22.11
 - [https://whatismyipaddress.com/](https://whatismyipaddress.com/)
 - [https://www.plex.tv/](https://www.plex.tv/)
+- [https://www.plex.tv/claim/](https://www.plex.tv/claim/)
 - [tbd]()
 
 ## 192.168.6.0/24 gw [http://192.168.6.1/](http://192.168.6.1/)
