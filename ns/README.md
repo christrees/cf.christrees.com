@@ -2,11 +2,12 @@
 
 # WIP Portals
 - [https://cf.christrees.com/](https://cf.christrees.com/)
-- [http://blog.christrees.com/wip/trinkcolab](http://blog.christrees.com/wip/trinkcolab}
-- [http://test.christrees.com/](http://test.christrees.com/) - map to cfu IP
-- [https://www.plex.tv/](https://www.plex.tv/}
+- [http://blog.christrees.com/wip/trinkcolab](http://blog.christrees.com/wip/trinkcolab)
+- [http://test.christrees.com/](http://test.christrees.com/) 
+- [https://whatismyipaddress.com/ip/24.149.22.11](https://whatismyipaddress.com/ip/24.149.22.11) - 24.149.22.11
+- [https://whatismyipaddress.com/](https://whatismyipaddress.com/)
+- [https://www.plex.tv/](https://www.plex.tv/)
 - [tbd]()
-
 
 ## 192.168.6.0/24 gw [http://192.168.6.1/](http://192.168.6.1/)
 
