@@ -12,34 +12,43 @@
 
 ## 192.168.6.0/24 gw [http://192.168.6.1/](http://192.168.6.1/)
 
-| web proxy    |   Link  | description |
-|--------------|---------|-------------|
-| cfu | [http://192.168.6.1/](http://192.168.6.1/) | cfu fw19 |
-| ssh to truenas | ssh 192.168.6.103:2020 | ssh to truenas |
-| nginx default | [http://192.168.6.103/](http://192.168.6.103/) | default nginx proxy page running in portainer |
-| nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | admin for nginx running in portainer |
-| proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | proxmox running on metal 192.168.2.3 IP |
-| portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | portainer admin on proxmox docker 103 |
-| truenas admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | TrueNAS on proxmox truenas 102 |
-| dockerplex web | NOT WORKING [http://192.168.6.103:32400](http://192.168.6.103:32400) | 32400 on IP plex on portainer |
-| tnasplex web | NOT WORKING [http://192.168.6.103:32500](http://192.168.6.103:32500) | 32500 on IP plex on portainer |
-| cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | 32600 on IP plex on cattvwin10 |
-| HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | tuner |
+| web proxy    |   Link  | type | description |
+|--------------|---------|------|-------------|
+| cfu | [http://192.168.6.1/](http://192.168.6.1/) | static | cfu fw19 |
+| nginx default | [http://192.168.6.103/](http://192.168.6.103/) | static | default nginx proxy page running in portainer |
+| nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | static | admin for nginx running in portainer |
+|--------------|---------|------|-------------|
+| proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | static | proxmox running on metal 192.168.2.3 IP |
+| portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | static | portainer admin on proxmox docker 103 |
+| truenas admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | static | TrueNAS on proxmox truenas 102 |
+| truenas ssh | ssh 192.168.6.103:2020 | static | ssh to truenas |
+|--------------|---------|------|-------------|
+| dockerplex web | NOT WORKING [http://192.168.6.103:32400](http://192.168.6.103:32400) | static | 32400 on IP plex on portainer |
+| tnasplex web | NOT WORKING [http://192.168.6.103:32500](http://192.168.6.103:32500) | static | 32500 on IP plex on portainer |
+| cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | macDHCP | 32600 on IP plex on cattvwin10 |
+| nsDiskStation web | [http://192.168.6.159:5000/](http://192.168.6.159:5000/) | macDHCP | DS212i Synology |
+| HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | macDHCP | silicondust tuner |
+|--------------|---------|------|-------------|
+| zmodo camera web | [http://192.168.6.161](http://192.168.6.161) | macDHCP | zmodo |
+| zmodo camera web | [http://192.168.6.162](http://192.168.6.162) | macDHCP | zmodo |
+| zmodo camera web | [http://192.168.6.163](http://192.168.6.163) | macDHCP | zmodo |
+| zmodo camera web | [http://192.168.6.164](http://192.168.6.164) | macDHCP | zmodo |
+| zmodo hub web | [http://192.168.6.165](http://192.168.6.165) | macDHCP | zmodo |
 
 
 ## 192.168.2.0/24 gw [http://192.168.2.1/](http://192.168.2.1/)
   
-| web proxy    |   Link  | description |
-|--------------|---------|-------------|
-| pfsense | [http://192.168.2.1/](http://192.168.2.1/) | pfsense ng on subnet |
-| truenas | [http://192.168.2.2/](http://192.168.2.2/) | truenas sg on subnet |
-| proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | proxmox cg subnet |
-| nginx default | [http://192.168.2.103/](http://192.168.2.103/) | default nginx proxy page running in portainer |
-| nginx proxy admin | [http://192.168.2.103:81](http://192.168.2.103:81) | admin for nginx running in portainer |
-| portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | portainer admin on proxmox docker 103 |
-| dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | 32400 on IP plex on portainer |
-| tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | 32500 on IP plex on portainer |
-| HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | tuner |
+| web proxy    |   Link  | type | description |
+|--------------|---------|------|-------------|
+| pfsense | [http://192.168.2.1/](http://192.168.2.1/) | static | pfsense ng on subnet |
+| truenas | [http://192.168.2.2/](http://192.168.2.2/) | static | truenas sg on subnet |
+| proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | static | proxmox cg subnet |
+| nginx default | [http://192.168.2.103/](http://192.168.2.103/) | static | default nginx proxy page running in portainer |
+| nginx proxy admin | [http://192.168.2.103:81](http://192.168.2.103:81) | macDHCP | admin for nginx running in portainer |
+| portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | macDHCP | portainer admin on proxmox docker 103 |
+| dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | macDHCP | 32400 on IP plex on portainer |
+| tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | 32500 on IP plex on portainer |
+| HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | macDHCP | tuner |
 
 ---
 
