@@ -8,6 +8,9 @@
 - [https://whatismyipaddress.com/](https://whatismyipaddress.com/)
 - [https://www.plex.tv/](https://www.plex.tv/)
 - [https://www.plex.tv/claim/](https://www.plex.tv/claim/)
+- [https://www.cfu.net/tv-internet/tv-service-info/channel-guide](https://www.cfu.net/tv-internet/tv-service-info/channel-guide)
+- [cattvwin10 channel map](https://docs.google.com/spreadsheets/d/1wjN1_N5Vjji6NQgE3DXi4D-S76sAHppQrdXsqh5qX2E/edit#gid=0) 
+
 - [tbd]()
 
 ## 192.168.6.0/24 gw [http://192.168.6.1/](http://192.168.6.1/)
