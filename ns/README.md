@@ -140,9 +140,7 @@ ns - Netstack
 | [https://192.168.2.2](https://192.168.2.2) | [https://sg.cf.lan](https://sg.cf.lan) | sg - storage gateway | [ sg ops https://192.168.2.2/ui/dashboard](https://192.168.2.2/ui/dashboard) | [sg setup](https://netstack.org/docs/lan/storage/freenas/setup) |
 | [https://192.168.2.3](https://192.168.2.3) | [https://cg.cf.lan](https://cg.cf.lan) | cg - compute gateway | [ cg ops https://192.168.2.3:8006/ ](https://192.168.2.3:8006/) | [cg setup](https://netstack.org/docs/lan/compute/proxmox/) |
 
-
 Future HA nodes
-
 
 | IP | lan | purpose |
 |----|-----|---------|
@@ -176,7 +174,6 @@ Future HA nodes
   - [http://192.168.2.31/discover.json](http://192.168.2.31/discover.json)
   - [http://192.168.2.31/lineup.json](http://192.168.2.31/lineup.json)
   - [https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO](https://api.hdhomerun.com/api/xmltv?DeviceAuth=EB0wFJ8-Bct5BY-ZS8mF5XRO)
-
 - was [HDHomeRun Connect 4K - Tuner - http://192.168.2.87/](http://192.168.2.87/)
 - [HDHomeRun Connect 4K - Tuner - http://192.168.6.14/](http://192.168.6.14/)
 - [HDHomeRun SERVIO - DVR Storage - http://192.168.2.29/](http://192.168.2.29/)
