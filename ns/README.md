@@ -1,5 +1,9 @@
 [edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
+- [cattvwin10 http://test.christrees.com:32400/](http://test.christrees.com:32400/)
+- [dockerplex http://test.christrees.com:32500/](http://test.christrees.com:32500/)
+- [tnasplex   http://test.christrees.com:32600/](http://test.christrees.com:32600/)
+
 # WIP Portals
 - [https://cf.christrees.com/](https://cf.christrees.com/)
 - [http://blog.christrees.com/wip/trinkcolab](http://blog.christrees.com/wip/trinkcolab)
@@ -10,7 +14,6 @@
 - [https://www.plex.tv/claim/](https://www.plex.tv/claim/)
 - [https://www.cfu.net/tv-internet/tv-service-info/channel-guide](https://www.cfu.net/tv-internet/tv-service-info/channel-guide)
 - [cattvwin10 channel map](https://docs.google.com/spreadsheets/d/1wjN1_N5Vjji6NQgE3DXi4D-S76sAHppQrdXsqh5qX2E/edit#gid=0) 
-
 - [tbd]()
 
 ## 192.168.6.0/24 gw [http://192.168.6.1/](http://192.168.6.1/)
@@ -26,8 +29,8 @@
 | truenas admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | static | TrueNAS on proxmox truenas 102 |
 | truenas ssh | ssh 192.168.6.103:2020 | static | ssh to truenas |
 |--------------|---------|------|-------------|
-| dockerplex web | NOT WORKING [http://192.168.6.103:32400](http://192.168.6.103:32400) | static | 32400 on IP plex on portainer |
-| tnasplex web | NOT WORKING [http://192.168.6.103:32500](http://192.168.6.103:32500) | static | 32500 on IP plex on portainer |
+| dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | static | 32400 on IP plex on portainer |
+| tnasplex web | [http://192.168.6.103:32500](http://192.168.6.103:32500) | static | 32500 on IP plex on portainer |
 | cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | macDHCP | 32600 on IP plex on cattvwin10 |
 | nsDiskStation web | [http://192.168.6.159:5000/](http://192.168.6.159:5000/) | macDHCP | DS212i Synology |
 | HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | macDHCP | silicondust tuner |
