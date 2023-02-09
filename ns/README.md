@@ -11,7 +11,7 @@
 - [tbd blink - web]()
 - [tbd energy - web]()
 - [tbd vivitar - web]()
-- tbd()
+- tbd
 ---
 
 # WIP Portals
