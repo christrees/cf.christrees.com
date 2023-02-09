@@ -1,5 +1,7 @@
 [edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
+- [framework laptop https://frame.work/](https://frame.work/)
+
 ### quick
 ---
 - [cattvwin10 http://test.christrees.com:32400/](http://test.christrees.com:32400/)
