@@ -7,6 +7,7 @@
 - [cattvwin10 http://test.christrees.com:32400/](http://test.christrees.com:32400/)
 - [dockerplex http://test.christrees.com:32500/](http://test.christrees.com:32500/)
 - [tnasplex   http://test.christrees.com:32600/](http://test.christrees.com:32600/)
+
 ---
 - [zmodo - web](https://user.zmodo.com/#/home) 
 - [tbd laview - web]()
@@ -14,6 +15,7 @@
 - [tbd energy - web]()
 - [tbd vivitar - web]()
 - tbd
+
 ---
 
 # WIP Portals
