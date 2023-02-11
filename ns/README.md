@@ -1,6 +1,7 @@
 [edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
 - [framework laptop https://frame.work/](https://frame.work/)
+- [google remote](https://remotedesktop.google.com/access)
 
 ### quick
 ---
