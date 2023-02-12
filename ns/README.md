@@ -8,6 +8,7 @@
 - [cattvwin10 http://test.christrees.com:32400/](http://test.christrees.com:32400/)
 - [dockerplex http://test.christrees.com:32500/](http://test.christrees.com:32500/)
 - [tnasplex   http://test.christrees.com:32600/](http://test.christrees.com:32600/)
+- [bs01ds411  http://test.christrees.com:32700/](http://test.christrees.com:32700/)
 
 ---
 - [zmodo - web](https://user.zmodo.com/#/home) 
@@ -46,6 +47,7 @@
 |--------------|---------|------|-------------|
 | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | static | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.6.103:32500](http://192.168.6.103:32500) | static | 32500 on IP plex on portainer |
+| bs01ds411 web | [http://192.168.6.103:32700](http://192.168.6.103:32700) | static | 32700 on IP plex on bs01ds411 synology nas |
 | cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | macDHCP | 32600 on IP plex on cattvwin10 |
 | nsDiskStation web | [http://192.168.6.159:5000/](http://192.168.6.159:5000/) | macDHCP | DS212i Synology |
 | HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | macDHCP | silicondust tuner |
@@ -70,6 +72,7 @@
 | dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | macDHCP | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | 32500 on IP plex on portainer |
 | HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | macDHCP | tuner |
+| bs01ds411 web | [http://192.168.2.105:32400](http://192.168.2.105:32400) | static | 32400 on IP plex on bs01ds411 synology nas |
 
 ---
 
