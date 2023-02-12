@@ -72,7 +72,8 @@
 | dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | macDHCP | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | 32500 on IP plex on portainer |
 | HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | macDHCP | tuner |
-| bs01ds411 web | [http://192.168.2.105:32400](http://192.168.2.105:32400) | static | 32400 on IP plex on bs01ds411 synology nas |
+| bs01ds411 plex web | [http://192.168.2.105:32400](http://192.168.2.105:32400) | static | 32400 on IP plex on bs01ds411 synology nas |
+| bs01ds411 admin web | [http://192.168.2.105:5000](http://192.168.2.105:5000) | static | 5000 on admin web bs01ds411 synology nas |
 
 ---
 
