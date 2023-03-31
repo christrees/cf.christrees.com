@@ -77,11 +77,34 @@
 
 ---
 
+| admin web    |   Link  | description |
+|--------------|---------|-------------|
+| pfsense | [http://192.168.2.1/](http://192.168.2.1/) | pfsense ng on subnet |
+| -- DHCP-Lease | [http://192.168.2.1/status_dhcp_leases.php?all=1](http://192.168.2.1/status_dhcp_leases.php?all=1) | DHCP-Lease |
+| truenas | [http://192.168.2.2/](http://192.168.2.2/) | truenas sg on subnet |
+| -- pools | [http://192.168.2.2/](http://192.168.2.2/) | truenas sg on subnet |
+| proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | proxmox cg subnet |
+| -- storage | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | proxmox cg subnet |
+| nginx proxy admin | [http://192.168.2.103:81](http://192.168.2.103:81) | admin for nginx running in portainer |
+| -- sites | [http://192.168.2.103:81](http://192.168.2.103:81) | admin for nginx running in portainer |
+| portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | portainer admin on proxmox docker 103 |
+| -- admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | portainer admin on proxmox docker 103 |
+| dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | 32400 on IP plex on portainer |
+| -- admin | [http://192.168.2.103:32400](http://192.168.2.103:32400) | 32400 on IP plex on portainer |
+| tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | 32500 on IP plex on portainer |
+| -- admin | [http://192.168.2.2:32500](http://192.168.2.2:32500) | 32500 on IP plex on portainer |
+| HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | tuner |
+| -- web | [http://192.168.2.102](http://192.168.2.102) | tuner |
+| bs01ds411 plex web | [http://192.168.2.105:32400](http://192.168.2.105:32400) | 32400 on IP plex on bs01ds411 synology nas |
+| -- admin web | [http://192.168.2.105:5000](http://192.168.2.105:5000) | 5000 on buadmin web bs01ds411 nas |
+
+---
 - Domain [https://domains.google.com/registrar/](https://domains.google.com/registrar/)
   - DNS [https://domains.google.com/registrar/christrees.com/dns](https://domains.google.com/registrar/christrees.com/dns)
 - Public [http://24.149.22.11/](http://24.149.22.11/) - as of 20230117
 
 ---
+
 ## DMZ LAN local
 - cfu pop router [ng.cfu.net - 854G-1 - http://192.168.6.1/](http://192.168.6.1/)
   - [current devices](http://192.168.6.1/#/html/status/status_devicetable.html)
