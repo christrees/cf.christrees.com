@@ -1,4 +1,4 @@
-[edit in github](https://github.com/christrees/cf.christrees.com/edit/main/ns/cfnetwork.md)  - or render -  [view in github]()
+[edit in github](https://github.com/christrees/cf.christrees.com/edit/main/ns/cfnetwork.md)  - or render -  [view in github](https://github.com/christrees/cf.christrees.com/blob/main/ns/cfnetwork.md)
 
 ``` mermaid
 graph LR
