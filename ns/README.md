@@ -2,6 +2,7 @@
 
 - [framework laptop https://frame.work/](https://frame.work/)
 - [google remote](https://remotedesktop.google.com/access)
+- [render network diagram in github](https://github.com/christrees/cf.christrees.com/blob/main/ns/cfnetwork.md)
 
 ### quick
 ---
