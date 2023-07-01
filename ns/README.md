@@ -43,12 +43,14 @@
 | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | static | admin for nginx running in portainer |
 | -- _Proxy ADMIN_ |---------|------|-------------|
 | cg proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | to 192.168.2.3:8006 | cg proxmox |
-| cg2 proxmox admin | [https://192.168.6.103:8007](https://192.168.6.103:8007) | to 192.168.2.3:8006 | cg2 proxmox |
+| cg2 proxmox admin | [https://192.168.6.103:8007](https://192.168.6.103:8007) | to 192.168.2.7:8006 | cg2 proxmox |
 | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | static | portainer admin on proxmox docker 103 |
-| truenas admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | static | TrueNAS-cg on proxmox truenas 102 |
-| truenas ssh | ssh 192.168.6.103:2021 | static | ssh to truenas-cg |
-| truenas admin | [https://192.168.6.103:9091](https://192.168.6.103:9091) | static | TrueNAS-cg2 on proxmox truenas 103 |
-| truenas ssh | ssh 192.168.6.103:2022 | static | ssh to truenas-cg2 |
+| truenas-cg admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | to 192.168.2.2:443 | TrueNAS-cg on proxmox truenas 102 |
+| truenas-cg ssh | ssh 192.168.6.103:2021 | to 192.168.2.2:22 | ssh to truenas-cg |
+| truenas-cg2 admin | [https://192.168.6.103:9091](https://192.168.6.103:9091) | to 192.168.2.6:444 | TrueNAS-cg2 on proxmox truenas 103 |
+| truenas-cg2 ssh | ssh 192.168.6.103:2022 | to 192.168.2.6:22 | ssh to truenas-cg2 |
+| bs01ds411 web | [http://192.168.6.103:5000/](http://192.168.6.103:5000/) | to 192.168.2.105:5000 | DS411 Synology |
+| nsDiskStation web | [http://192.168.6.159:5000/](http://192.168.6.159:5000/) | macDHCP | DS212i Synology |
 | -- TV Admin |---------|------|-------------|
 | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | static | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.6.103:32500](http://192.168.6.103:32500) | static | 32500 on IP plex on portainer |
