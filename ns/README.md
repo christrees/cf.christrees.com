@@ -38,21 +38,25 @@
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | cfu | [http://192.168.6.1/](http://192.168.6.1/) | static | cfu fw19 |
+| pfsense | [http://192.168.6.103:91/](http://192.168.6.103:91/) | to 192.168.2.1:80 | gui fw for 192.168.2.0/24 |
 | nginx default | [http://192.168.6.103/](http://192.168.6.103/) | static | default nginx proxy page running in portainer |
 | nginx proxy admin | [http://192.168.6.103:81](http://192.168.6.103:81) | static | admin for nginx running in portainer |
-|--------------|---------|------|-------------|
-| proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | static | proxmox running on metal 192.168.2.3 IP |
+| -- _Proxy ADMIN_ |---------|------|-------------|
+| cg proxmox admin | [https://192.168.6.103:8006](https://192.168.6.103:8006) | to 192.168.2.3:8006 | cg proxmox |
+| cg2 proxmox admin | [https://192.168.6.103:8007](https://192.168.6.103:8007) | to 192.168.2.3:8006 | cg2 proxmox |
 | portainer admin | [http://192.168.6.103:9000](http://192.168.6.103:9000) | static | portainer admin on proxmox docker 103 |
 | truenas admin | [https://192.168.6.103:9090](https://192.168.6.103:9090) | static | TrueNAS on proxmox truenas 102 |
-| truenas ssh | ssh 192.168.6.103:2020 | static | ssh to truenas |
-|--------------|---------|------|-------------|
+| truenas ssh | ssh 192.168.6.103:2021 | static | ssh to truenas |
+| truenas admin | [https://192.168.6.103:9091](https://192.168.6.103:9091) | static | TrueNAS on proxmox truenas 103 |
+| truenas ssh | ssh 192.168.6.103:2021 | static | ssh to truenas |
+| -- TV Admin |---------|------|-------------|
 | dockerplex web | [http://192.168.6.103:32400](http://192.168.6.103:32400) | static | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.6.103:32500](http://192.168.6.103:32500) | static | 32500 on IP plex on portainer |
 | bs01ds411 web | [http://192.168.6.103:32700](http://192.168.6.103:32700) | static | 32700 on IP plex on bs01ds411 synology nas |
 | cattvwin10 web | [http://192.168.6.180:32400](http://192.168.6.180:32400) | macDHCP | 32600 on IP plex on cattvwin10 |
 | nsDiskStation web | [http://192.168.6.159:5000/](http://192.168.6.159:5000/) | macDHCP | DS212i Synology |
 | HDHR-10802956 web | [http://192.168.6.160](http://192.168.6.160) | macDHCP | silicondust tuner |
-|--------------|---------|------|-------------|
+| Security Cameras |---------|------|-------------|
 | zmodo camera web | [http://192.168.6.161](http://192.168.6.161) | macDHCP | zmodo |
 | zmodo camera web | [http://192.168.6.162](http://192.168.6.162) | macDHCP | zmodo |
 | zmodo camera web | [http://192.168.6.163](http://192.168.6.163) | macDHCP | zmodo |
