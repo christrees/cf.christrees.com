@@ -71,16 +71,22 @@
 | web proxy    |   Link  | type | description |
 |--------------|---------|------|-------------|
 | pfsense | [http://192.168.2.1/](http://192.168.2.1/) | static | pfsense ng on subnet |
-| truenas | [http://192.168.2.2/](http://192.168.2.2/) | static | truenas sg on subnet |
-| proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | static | proxmox cg subnet |
-| nginx default | [http://192.168.2.103/](http://192.168.2.103/) | static | default nginx proxy page running in portainer |
+| truenas | [http://192.168.2.2/](http://192.168.2.2/) | macDHCP | truenas sg on subnet |
+| truenas | [http://192.168.2.2:443/](http://192.168.2.2:443/) | macDHCP | truenas sg on subnet |
+| truenas2 | [https://192.168.2.6:81/](https://192.168.2.6:81/) | macDHCP | truenas sg on subnet |
+| truenas2 | [https://192.168.2.6:444/](https://192.168.2.6:444/) | macDHCP | truenas sg on subnet |
+| cg-proxmox | [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | static macres | proxmox cg subnet |
+| cg2-proxmox | [https://192.168.2.7:8006/](https://192.168.2.7:8006/) | static macres | proxmox cg subnet |
+| ghwin11 plex | [https://192.168.2.99:32400/](https://192.168.2.99:32400/) | macDHCP | plex on ghwin11 |
+| cattvwin10 plex | [https://192.168.2.100:32400/](https://192.168.2.100:32400/) | macDHCP | plex on cattvwin10 |
+| HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | macDHCP | tuner |
+| nginx default | [http://192.168.2.103/](http://192.168.2.103/) | macDHCP | default nginx proxy page running in portainer |
 | nginx proxy admin | [http://192.168.2.103:81](http://192.168.2.103:81) | macDHCP | admin for nginx running in portainer |
 | portainer admin | [http://192.168.2.103:9000](http://192.168.2.103:9000) | macDHCP | portainer admin on proxmox docker 103 |
 | dockerplex web | [http://192.168.2.103:32400](http://192.168.2.103:32400) | macDHCP | 32400 on IP plex on portainer |
 | tnasplex web | [http://192.168.2.2:32500](http://192.168.2.2:32500) | static | 32500 on IP plex on portainer |
-| HDHR-1080AD03 web | [http://192.168.2.102](http://192.168.2.102) | macDHCP | tuner |
-| bs01ds411 plex web | [http://192.168.2.105:32400](http://192.168.2.105:32400) | static | 32400 on IP plex on bs01ds411 synology nas |
-| bs01ds411 admin web | [http://192.168.2.105:5000](http://192.168.2.105:5000) | static | 5000 on admin web bs01ds411 synology nas |
+| bs01ds411 plex web | [http://192.168.2.105:32400](http://192.168.2.105:32400) | macDHCP | 32400 on IP plex on bs01ds411 synology nas |
+| bs01ds411 admin web | [http://192.168.2.105:5000](http://192.168.2.105:5000) | macDHCP | 5000 on admin web bs01ds411 synology nas |
 
 ---
 
@@ -157,6 +163,8 @@
 
 ---
 ### Reference
+- [https://hsve.org/proxmox-gpu-passthrough-to-windows-10-11/](https://hsve.org/proxmox-gpu-passthrough-to-windows-10-11/)
+- tbd
 - [Plex downloads](https://www.plex.tv/media-server-downloads/)
   - Plex 1.28.2 for OSX 10.9
   - [Plex remote client network issue](https://www.devwithimagination.com/2019/08/21/plex-docker-and-the-problem-of-always-appearing-as-remote/)
