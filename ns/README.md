@@ -1,5 +1,32 @@
 [edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
+| Service admin Link  | type    | description | location    |
+|---------------------|---------|-------------|-------------|
+| [http://192.168.2.1/](http://192.168.2.1/) | ng | pfsense ng on subnet | vm on cg |
+| [http://192.168.2.2/](http://192.168.2.2/) | sg | truenas sg on subnet | vm on cg |
+| [https://192.168.2.2:443/](https://192.168.2.2:443/) | sg | truenas (https) sg on subnet | vm on cg |
+| [https://192.168.2.3:8006/](https://192.168.2.3:8006/) | cg | proxmox cg subnet | cg hardware |
+| - | - | - | - |
+| [http://192.168.2.6:81/](http://192.168.2.6:81/) | sg2 | truenas2 sg2 on subnet | vm on cg2 |
+| [https://192.168.2.6:444/](https://192.168.2.6:444/) | sg2 | truenas2 (https) sg2 on subnet | vm on cg2 |
+| [https://192.168.2.7:8006/](https://192.168.2.7:8006/) | cg2 | proxmox cg2 subnet | vm on cg2 |
+| - | - | - | - |
+| [https://192.168.2.99:32400/](https://192.168.2.99:32400/) | plex | plex on ghwin11 | app on ghwin11 |
+| [https://192.168.2.100:32400/](https://192.168.2.100:32400/) | plex| plex on cattvwin10 | app on cattvwin10 |
+| [http://192.168.2.105:32400](http://192.168.2.105:32400) | plex | bs01ds411 plex web | 32400 on IP plex on bs01ds411 synology nas |
+| - | - | - | - |
+| [http://192.168.2.102](http://192.168.2.102) | tuner | HDHR-1080AD03 web | silicondust hw |
+| - | - | - | - |
+| [http://192.168.2.103/](http://192.168.2.103/) | app | nginx proxy default | vm on cg |
+| [http://192.168.2.103:81](http://192.168.2.103:81) | app | nginx proxy admin | vm on cg |
+| [http://192.168.2.103:9000](http://192.168.2.103:9000) | app | portainer admin | portainer admin on cg docker 103 |
+| [http://192.168.2.103:32400](http://192.168.2.103:32400) | app | dockerplex web | 32400 on IP plex on portainer |
+| [http://192.168.2.2:32500](http://192.168.2.2:32500) | app | tnasplex web | 32500 on IP plex on portainer |
+| - | - | - | - |
+| [http://192.168.2.105:5000](http://192.168.2.105:5000) | bs01 | bs01ds411 admin web | 5000 on admin web bs01ds411 synology nas |
+| [http://192.168.6.159:5000/](http://192.168.6.159:5000/) | bs | nsDiskStation web | 5000 on DS212i Synology |
+
+### Notes
 - [framework laptop https://frame.work/](https://frame.work/)
 - [google remote](https://remotedesktop.google.com/access)
 - [render network diagram in github](https://github.com/christrees/cf.christrees.com/blob/main/ns/cfnetwork.md)
