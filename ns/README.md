@@ -1,3 +1,5 @@
+Moving to [https://cf.2cld.net](https://cf.2cld.net)
+
 [edit this](https://github.com/christrees/cf.christrees.com/edit/main/ns/README.md)
 
 | Service admin Link  | type    | description | location    |
